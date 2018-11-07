@@ -62,7 +62,7 @@ The scope of this document is *not* the specification, implementation and prepar
 - Every client team should run and add to the stats page at least one non-forking full node.
   - Things will get messy in the testnet rehearsal and we need all the information we can in a centralized location. By having both old and new nodes in the same stats page developers can a lot better track how the two chains are evolving.
 - Keep the network running until all desired players are able to synchronize, mine and transact.
-  - The testnet rehersal has a nice side effect that it produces an extremely unhealthy network as there's a longer competing chain. This can surface a significant number of client issues around synchronization and chain reorganizations **(see Ropsten Constaninople post mortem)**.
+  - The testnet rehearsal has a nice side effect that it produces an extremely unhealthy network as there's a longer competing chain. This can surface a significant number of client issues around synchronization and chain reorganizations **(see Ropsten Constaninople post mortem)**.
 - Tear down all the clients and the custom stats page too.
 
 **As previously, any client unwilling to keep up needs to be left behind, otherwise we'll never reach the end of the rollout flow!**
