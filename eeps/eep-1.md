@@ -15,12 +15,12 @@ Discuss:
 
 The goal of this document is to act as a step-by-step guide for network participants on how to roll out consensus upgrades onto the Ethereum network in a reliable and reproducible fashion. It defines the timelines and deliverables different teams must follow, as well as the emergency procedures in case something foreseeable goes wrong.
 
-The scope of this document is *not* the specification, implementation and preparation of forks, rather their safe rollout once the ecosystem gives the green light on deploying them.
+The scope of this document is *not* the specification, implementation and preparation of forks. Rather, the scope of this document is to outline their safe rollout once the ecosystem gives the green light on deploying them.
 
 ## Preconditions
 
 - All Ethereum Improvement Proposals (EIPs) aimed to be deployed in the hard fork have been implemented in all desired clients and a summary document has been produced with links to all the relevant code changes.
-  - Beside tracking the implementation progress of EIPs, the goals of the summary document are to allow developers to cross validate other implementations; as well as to have a quick index into other code-bases in case of a consensus issue.
+  - Along with tracking the implementation progress of EIPs, the goals of the summary document are to allow developers to cross validate other implementations; as well as to have a quick index into other code-bases in case of a consensus issue.
 - All EIPs have every known corner-case covered with public consensus tests and a summary document has been produced with links from specific corner-cases in the EIP to test cases within the tests repository.
   - It makes absolutely no sense to go forward with a hard fork if the tests are incomplete. This is especially relevant for test networks where client developers are more probable to just not care, potentially breaking things for higher layer programmers.
 - All relevant consensus tests are passing on desired clients using black-box testing (*hive*).
